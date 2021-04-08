@@ -52,7 +52,7 @@ body
     border-bottom: 4px solid #4a934a;
     content: "";
     position: absolute;
-    right: 1px;
+    right: 4px;
     top: -8px;
 }
 
@@ -65,8 +65,35 @@ body
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover 
 {
+    background-color: #e7480f;
+}
+
+.nav>li>a:focus, .nav>li>a:hover
+{
     color: #e7480f;
     background-color: #eee;
 }
 
-.nav
+.nav>li>a
+{
+    color: #eee;
+    font-size: 18px;
+text-shadow: 2px 2px #333;
+}
+
+.btn-order
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e7480f;
+    text-decoration: none;
+    text-shadow: 2px 2px #333;
+}
+
+.btn-order:hover, .btn-order:focus
+{
+    color: #fff;
+    background-color: #c13c0d;
+}
